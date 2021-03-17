@@ -1,0 +1,41 @@
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  } */
+  
+  .popup {
+    text-align: center;
+    position: absolute;
+    padding: 5px;
+    width: 100px;
+    top: 93%;
+    left: 40%;
+    margin-left: 10px;
+    /* border-width: 5px; */
+    /* border-style: solid; */
+    border-radius: 2px ;
+    /* border-color: #555 transparent transparent transparent; */
+    z-index: 10;
+    background-color: #555;
+    color: white;
+    outline: none;
+    }
+  
+  .popup {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+  }
+    
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  
